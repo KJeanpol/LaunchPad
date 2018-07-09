@@ -1,0 +1,66 @@
+>>ejemplojemplo<<
+>>Ejemplificjemplifica<<
+
+D Var Tiempo;
+D Variable2 Tiempo;
+D Variable3 Tiempo;
+D Variable4 Tiempo;
+
+
+P GG B
+Vars Tiempo;
+INZ Var= 7;
+INZ Variable2= 2;
+
+    SoundOff(Var);
+    SoundOn(Var);
+    TurnOFF(Var,Var,Var);
+    TurnON(Var,Var,Var);
+    TurnOn(Var,Var,Var,252,6,6);
+    
+
+    
+    
+
+
+    
+
+P GG E
+
+P WP3 B
+	SoundOn(Var);
+    SoundOff(Var);
+    TurnON(Var,Var,Var);
+    TurnOFF(Var,Var,Var);
+    TurnOn(Var,Var,Var,0,0,0);
+    
+P WP3 E
+
+P MP B
+	SoundOn(Var);
+    SoundOff(Var);
+    TurnON(Var,Var,Var);
+    TurnOFF(Var,Var,Var);
+    TurnOn(Var,Var,Var,0,0,0);
+P MP E
+
+P SP B
+	SoundOn(Var);
+    SoundOff(Var);
+    TurnON(Var,Var,Var);
+    TurnOFF(Var,Var,Var);
+    TurnOn(Var,Var,Var,0,0,0);
+P SP E
+
+P TP B
+	SoundOn(Var);
+    SoundOff(Var);
+    TurnON(Var,Var,Var);
+    TurnOFF(Var,Var,Var);
+    TurnOn(Var,Var,Var,0,0,0);
+P TP E
+
+Call GG;
+
+
+
